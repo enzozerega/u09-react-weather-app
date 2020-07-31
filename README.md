@@ -1,6 +1,7 @@
 # Weather App
 
-This app was built using React 16.13.1. ![react](./src/assets/react.png)
+This app was created as part of my training as a web developer at Chas Academy, as a group assignment together with 
+@Ekaterina-V, @Emad-mhardawi and @marouanmensi.It was built using React 16.13.1. ![react](./src/assets/react.png)
 
 The app lets the user:
 
