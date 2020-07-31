@@ -33,6 +33,10 @@ The data is retrieved from the  **[OpenWeather](https://openweathermap.org/api) 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Live Site
+
+Visit https://u09-react-weather-app.web.app/ to check the app.
+
 ## Available Scripts
 
 In the project directory, you can run:
