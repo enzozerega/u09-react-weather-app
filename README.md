@@ -1,6 +1,10 @@
 # Weather App
 
-This app was built using React 16.13.1. ![react](./src/assets/react.png)
+This app was created as part of my training as a web developer at Chas Academy, as a group assignment together with 
+[@Ekaterina-V](https://github.com/Ekaterina-V), [@Emad-mhardawi](https://github.com/Emad-mhardawi) and [@marouanmensi](https://github.com/marouanmensi). 
+
+
+It was built using React 16.13.1. ![react](./src/assets/react.png)
 
 The app lets the user:
 
@@ -29,10 +33,15 @@ The data is retrieved from the  **[OpenWeather](https://openweathermap.org/api) 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Live Site
+
+Visit https://u09-react-weather-app.web.app/ to check the app.
+
 ## Available Scripts
 
 In the project directory, you can run:
 
+### `npm install`
 ### `npm start`
 
 Runs the app in the development mode.<br />
