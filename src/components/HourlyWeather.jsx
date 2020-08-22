@@ -32,7 +32,7 @@ class HourlyWeather extends Component {
   getForecast = (celsius) => {
     if (this.props.match.params.id) {
       try {
-        const weatherURL = `http://api.openweathermap.org/data/2.5/forecast?id=${this.props.match.params.id}&appid=${config.API_KEY}`;
+        const weatherURL = `https://api.openweathermap.org/data/2.5/forecast?id=${this.props.match.params.id}&appid=${config.API_KEY}`;
         fetch(weatherURL)
           .then((res) => res.json())
           .then((data) => {

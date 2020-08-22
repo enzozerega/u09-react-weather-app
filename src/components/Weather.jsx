@@ -73,10 +73,10 @@ class Weather extends Component {
         fetchUrl = `//api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&appid=${config.API_KEY}`;
         console.log("fetchUrl.using.latlon:", fetchUrl);
       } else if (!this.props.cityId) {
-        fetchUrl = `http://api.openweathermap.org/data/2.5/weather?id=${this.state.cityId}&appid=${config.API_KEY}`;
+        fetchUrl = `https://api.openweathermap.org/data/2.5/weather?id=${this.state.cityId}&appid=${config.API_KEY}`;
         console.log("fetchUrl.using.stockholm:", fetchUrl);
       } else {
-        fetchUrl = `http://api.openweathermap.org/data/2.5/weather?id=${this.props.cityId}&appid=${config.API_KEY}`;
+        fetchUrl = `https://api.openweathermap.org/data/2.5/weather?id=${this.props.cityId}&appid=${config.API_KEY}`;
         this.setState({ cityId: this.props.cityId });
         console.log("fetchUrl.using.props:", fetchUrl);
       }

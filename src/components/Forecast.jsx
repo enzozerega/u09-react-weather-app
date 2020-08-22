@@ -90,7 +90,7 @@ class Forecast extends Component {
   getForecast = () => {
     if (this.props.cityId) {
       try {
-        const weatherURL = `http://api.openweathermap.org/data/2.5/forecast?id=${this.props.cityId}&appid=${config.API_KEY}`;
+        const weatherURL = `https://api.openweathermap.org/data/2.5/forecast?id=${this.props.cityId}&appid=${config.API_KEY}`;
 
         fetch(weatherURL)
           .then((res) => res.json())
